@@ -2,7 +2,7 @@
 <html class="has-navbar-fixed-top">
 <head>
     <meta charset="utf-8">
-<title>文章列表 - Lacie</title>
+<title>Hexo 常用指令記載 - Lacie</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.css">
@@ -16,12 +16,17 @@
 
 
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Lacie">
-<meta property="og:url" content="https://yuyuma17.github.io/archives/index.html">
+    <meta name="description" content="前言因為開始使用 Hexo 來自建部落格，但有些常用的指令還是會忘記。故寫了這篇來記錄一下（不含架設 Hexo 過程，僅有指令）。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo 常用指令記載">
+<meta property="og:url" content="https://yuyuma17.github.io/2021/09/14/record-of-useful-hexo-commands/index.html">
 <meta property="og:site_name" content="Lacie">
+<meta property="og:description" content="前言因為開始使用 Hexo 來自建部落格，但有些常用的指令還是會忘記。故寫了這篇來記錄一下（不含架設 Hexo 過程，僅有指令）。">
 <meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2021-09-14T03:16:16.000Z">
+<meta property="article:modified_time" content="2021-09-14T08:48:57.531Z">
 <meta property="article:author" content="Lacie">
+<meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
 
 
@@ -94,7 +99,7 @@
         
         <div class="navbar-menu navbar-start">
             
-            <a class="navbar-item is-active"
+            <a class="navbar-item "
                href="/archives">文章列表</a>
             
             <a class="navbar-item "
@@ -156,22 +161,82 @@
 
     <section class="section">
     <div class="container">
-    
-    
-        <div class="archive content">
-            <h4 class="title is-4" id="2021">2021</h4>
-            <div class="articles">
+    <article class="article content gallery" itemscope itemprop="blogPost">
+    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
+        
+            Hexo 常用指令記載
+        
+    </h1>
+    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
+        <span class="column is-narrow">
             
-                <div class="article content flexbox">
-                    <time class="is-text-small monospace mr1" datetime="2021-09-14T03:16:16.000Z" itemprop="datePublished">
-                        09月14日</time>
-                    <h6 class="title is-6"><a href="/2021/09/14/record-of-useful-hexo-commands/">Hexo 常用指令記載</a></h6>
-                </div>
+                <span>2021年9月14日</span>
             
-            </div>
-        </div>
+        </span>
+        
+        <span class="column is-narrow article-category">
+            <i class="far fa-folder"></i>
+            <a class="article-category-link" href="/categories/Hexo/">Hexo</a>
+        </span>
+        
+        
+    </div>
+    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
+    
+        <html><head></head><body><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>因為開始使用 Hexo 來自建部落格，但有些常用的指令還是會忘記。<br>故寫了這篇來記錄一下（不含架設 Hexo 過程，僅有指令）。</p>
+<span id="more"></span>
+
+<h2 id="基礎操作"><a href="#基礎操作" class="headerlink" title="基礎操作"></a>基礎操作</h2><p>萬用的 hexo clean，若怕遇到修改後發生什麼錯誤，先 clean 就對了。</p>
+<figure class="highlight plaintext hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></tbody></table></figure>
+
+<p>生成新的靜態檔案</p>
+<figure class="highlight plaintext hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></tbody></table></figure>
+
+<p>部署到遠端上</p>
+<figure class="highlight plaintext hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></tbody></table></figure>
+
+<p>Local Host</p>
+<figure class="highlight plaintext hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></tbody></table></figure>
+
+<h2 id="文章相關"><a href="#文章相關" class="headerlink" title="文章相關"></a>文章相關</h2><p>在 scaffolds 資料夾內會有預設的三個樣板，根據指令的不同來生成不一樣的內容。</p>
+<p>新增草稿，在 _drafts/ 資料夾內的文章預設不會出現在網頁上</p>
+<figure class="highlight plaintext hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new draft 草稿名稱</span><br></pre></td></tr></tbody></table></figure>
+
+<p>草稿轉文章，也可以手動搬移比較快</p>
+<figure class="highlight plaintext hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo publish [layout] &lt;title&gt;</span><br></pre></td></tr></tbody></table></figure>
+
+<p>新增文章</p>
+<figure class="highlight plaintext hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new 文章名稱</span><br></pre></td></tr></tbody></table></figure>
+
+<h2 id="頁面相關"><a href="#頁面相關" class="headerlink" title="頁面相關"></a>頁面相關</h2><p>新增頁面，需要跟 theme 的 menu 設定對到</p>
+<figure class="highlight plaintext hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page 頁面名稱</span><br></pre></td></tr></tbody></table></figure>
+</body></html>
+    
+    </div>
+    
+    <div class="columns is-variable is-1 is-multiline is-mobile">
+    
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Hexo/">#Hexo</a></span>
+    
+    </div>
     
     
+</article>
+
+
+
+
+<div class="comments">
+    <h3 class="title is-4">評論</h3>
+    <script src="https://utteranc.es/client.js"
+        repo="yuyuma17/yuyuma17.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+</div>
+
     </div>
 </section>
     <footer class="footer">

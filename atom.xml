@@ -6,7 +6,7 @@
   <link href="https://yuyuma17.github.io/atom.xml" rel="self"/>
   
   <link href="https://yuyuma17.github.io/"/>
-  <updated>2021-09-14T02:01:49.814Z</updated>
+  <updated>2021-09-14T08:48:57.531Z</updated>
   <id>https://yuyuma17.github.io/</id>
   
   <author>
@@ -17,19 +17,23 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
-    <link href="https://yuyuma17.github.io/2021/09/14/test/"/>
-    <id>https://yuyuma17.github.io/2021/09/14/test/</id>
-    <published>2021-09-14T02:01:49.000Z</published>
-    <updated>2021-09-14T02:01:49.814Z</updated>
+    <title>Hexo 常用指令記載</title>
+    <link href="https://yuyuma17.github.io/2021/09/14/record-of-useful-hexo-commands/"/>
+    <id>https://yuyuma17.github.io/2021/09/14/record-of-useful-hexo-commands/</id>
+    <published>2021-09-14T03:16:16.000Z</published>
+    <updated>2021-09-14T08:48:57.531Z</updated>
     
-    <content type="html"><![CDATA[<html><head></head><body><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><span id="more"></span></body></html>]]></content>
-    
-    
-    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;/body&gt;&lt;/html&gt;</summary>
+    <content type="html"><![CDATA[<html><head></head><body><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>因為開始使用 Hexo 來自建部落格，但有些常用的指令還是會忘記。<br>故寫了這篇來記錄一下（不含架設 Hexo 過程，僅有指令）。</p><span id="more"></span><h2 id="基礎操作"><a href="#基礎操作" class="headerlink" title="基礎操作"></a>基礎操作</h2><p>萬用的 hexo clean，若怕遇到修改後發生什麼錯誤，先 clean 就對了。</p><figure class="highlight plaintext hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></tbody></table></figure><p>生成新的靜態檔案</p><figure class="highlight plaintext hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></tbody></table></figure><p>部署到遠端上</p><figure class="highlight plaintext hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></tbody></table></figure><p>Local Host</p><figure class="highlight plaintext hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></tbody></table></figure><h2 id="文章相關"><a href="#文章相關" class="headerlink" title="文章相關"></a>文章相關</h2><p>在 scaffolds 資料夾內會有預設的三個樣板，根據指令的不同來生成不一樣的內容。</p><p>新增草稿，在 _drafts/ 資料夾內的文章預設不會出現在網頁上</p><figure class="highlight plaintext hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new draft 草稿名稱</span><br></pre></td></tr></tbody></table></figure><p>草稿轉文章，也可以手動搬移比較快</p><figure class="highlight plaintext hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo publish [layout] &lt;title&gt;</span><br></pre></td></tr></tbody></table></figure><p>新增文章</p><figure class="highlight plaintext hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new 文章名稱</span><br></pre></td></tr></tbody></table></figure><h2 id="頁面相關"><a href="#頁面相關" class="headerlink" title="頁面相關"></a>頁面相關</h2><p>新增頁面，需要跟 theme 的 menu 設定對到</p><figure class="highlight plaintext hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page 頁面名稱</span><br></pre></td></tr></tbody></table></figure></body></html>]]></content>
     
     
+    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;因為開始使用 Hexo 來自建部落格，但有些常用的指令還是會忘記。&lt;br&gt;故寫了這篇來記錄一下（不含架設 Hexo 過程，僅有指令）。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</summary>
     
+    
+    
+    <category term="Hexo" scheme="https://yuyuma17.github.io/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://yuyuma17.github.io/tags/Hexo/"/>
     
   </entry>
   
