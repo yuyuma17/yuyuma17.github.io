@@ -6,7 +6,7 @@
   <link href="https://yuyuma17.github.io/atom.xml" rel="self"/>
   
   <link href="https://yuyuma17.github.io/"/>
-  <updated>2021-09-01T08:14:39.098Z</updated>
+  <updated>2021-09-14T02:01:49.814Z</updated>
   <id>https://yuyuma17.github.io/</id>
   
   <author>
@@ -17,23 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hexo 常用指令記載</title>
-    <link href="https://yuyuma17.github.io/2021/08/29/Hexo-%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E8%A8%98%E8%BC%89/"/>
-    <id>https://yuyuma17.github.io/2021/08/29/Hexo-%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E8%A8%98%E8%BC%89/</id>
-    <published>2021-08-29T07:46:45.000Z</published>
-    <updated>2021-09-01T08:14:39.098Z</updated>
+    <title>test</title>
+    <link href="https://yuyuma17.github.io/2021/09/14/test/"/>
+    <id>https://yuyuma17.github.io/2021/09/14/test/</id>
+    <published>2021-09-14T02:01:49.000Z</published>
+    <updated>2021-09-14T02:01:49.814Z</updated>
     
-    <content type="html"><![CDATA[<html><head></head><body><p>Welcome</p><span id="more"></span></body></html>]]></content>
-    
-    
-    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Welcome&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</summary>
+    <content type="html"><![CDATA[<html><head></head><body><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><span id="more"></span></body></html>]]></content>
     
     
+    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;/body&gt;&lt;/html&gt;</summary>
     
-    <category term="a" scheme="https://yuyuma17.github.io/categories/a/"/>
     
     
-    <category term="a" scheme="https://yuyuma17.github.io/tags/a/"/>
     
   </entry>
   
