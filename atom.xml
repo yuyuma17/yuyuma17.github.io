@@ -6,7 +6,7 @@
   <link href="https://yuyuma17.github.io/atom.xml" rel="self"/>
   
   <link href="https://yuyuma17.github.io/"/>
-  <updated>2021-09-14T08:48:57.531Z</updated>
+  <updated>2022-09-24T13:51:31.076Z</updated>
   <id>https://yuyuma17.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在 Flutter 中客製化特定多語系字串參數的樣式</title>
+    <link href="https://yuyuma17.github.io/2022/09/24/custom-text-style-of-specific-localization-variables-in-flutter/"/>
+    <id>https://yuyuma17.github.io/2022/09/24/custom-text-style-of-specific-localization-variables-in-flutter/</id>
+    <published>2022-09-24T04:02:45.000Z</published>
+    <updated>2022-09-24T13:51:31.076Z</updated>
+    
+    <content type="html"><![CDATA[<html><head></head><body><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近在工作上碰到了這樣的需求，原本一開始以為滿容易的。</p><p>但後來想想在多語系字串及 Text 之間的實現上好像有點麻煩。</p><p>那我們直接來看看圖片，是碰到怎麼樣的問題。</p><span id="more"></span><h2 id="多語系與設計圖之間的碰撞"><a href="#多語系與設計圖之間的碰撞" class="headerlink" title="多語系與設計圖之間的碰撞"></a>多語系與設計圖之間的碰撞</h2><p><img src="https://i.imgur.com/MlgmQ1h.png" alt="Image"></p><p><img src="https://i.imgur.com/30k4kwF.png" alt="Image"></p><p>上面兩張圖是設計圖的構想，主要的目的是要把小孩的名字們加粗或使用不一樣的字體來做突出。</p><p>在不同語言的情況下，名詞所在的位置多有不同。</p><p>且由於有些參數必須由外部帶入，所以要在多語系裡面建立參數。</p><p>用以下這個例子來說明，「kidsText」在英文的話是這樣：</p><p><img src="https://i.imgur.com/2qiBDOk.png" alt="Image"></p><p>而在中文的話是這樣：</p><p><img src="https://i.imgur.com/Vc0YBFB.png" alt="Image"></p><p>這就會衍生另一個問題，在使用多語系字串時很難各別客製化某個參數的 Style：</p><p><img src="https://i.imgur.com/zXdVeIs.png" alt="Image"></p><h2 id="解決方式"><a href="#解決方式" class="headerlink" title="解決方式"></a>解決方式</h2><p>後來在 Stackoverflow 查了滿久的，才終於發現有人推薦使用 <a href="https://pub.dev/packages/styled_text">styled_text</a> 來做相關的處理。</p><p>簡單來說就是使用客製化的 tag 在你想要的字串上：</p><p><img src="https://i.imgur.com/9irCh8a.png" alt="Image"></p><p>即可達成上方設計圖所想要的樣子。</p></body></html>]]></content>
+    
+    
+    <summary type="html">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;最近在工作上碰到了這樣的需求，原本一開始以為滿容易的。&lt;/p&gt;
+&lt;p&gt;但後來想想在多語系字串及 Text 之間的實現上好像有點麻煩。&lt;/p&gt;
+&lt;p&gt;那我們直接來看看圖片，是碰到怎麼樣的問題。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</summary>
+    
+    
+    
+    <category term="Flutter" scheme="https://yuyuma17.github.io/categories/Flutter/"/>
+    
+    
+    <category term="Flutter" scheme="https://yuyuma17.github.io/tags/Flutter/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo 常用指令記載</title>

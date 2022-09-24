@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yuyuma17.github.io/2022/09/24/custom-text-style-of-specific-localization-variables-in-flutter/</loc>
+    
+    <lastmod>2022-09-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yuyuma17.github.io/about/index.html</loc>
     
     <lastmod>2021-09-14</lastmod>
@@ -29,6 +38,13 @@
 
   
   <url>
+    <loc>https://yuyuma17.github.io/tags/Flutter/</loc>
+    <lastmod>2022-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://yuyuma17.github.io/tags/Hexo/</loc>
     <lastmod>2022-09-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -36,6 +52,13 @@
   </url>
   
 
+  
+  <url>
+    <loc>https://yuyuma17.github.io/categories/Flutter/</loc>
+    <lastmod>2022-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://yuyuma17.github.io/categories/Hexo/</loc>
